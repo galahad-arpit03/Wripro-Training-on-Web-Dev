@@ -1,0 +1,70 @@
+/* Hyperlink colors */
+.color-link:link {
+    color: #FF0000; /* Unvisited link color */
+}
+.color-link:visited {
+    color: #FFFF00; /* Visited link color */
+}
+.color-link:hover {
+    color: #FF00FF; /* Mouse over link color */
+}
+.color-link:active {
+    color: #0000FF; /* Selected link color */
+}
+
+/* Hyperlink text decoration */
+.text-link:link {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Hyperlink background colors */
+.bg-link:link {
+    background-color: #FF0000; /* Unvisited background color */
+    color: white;
+    padding: 5px;
+}
+.bg-link:visited {
+    background-color: #FFFF00; /* Visited background color */
+    color: black;
+    padding: 5px;
+}
+.bg-link:hover {
+    background-color: #FF00FF; /* Mouse over background color */
+    color: white;
+    padding: 5px;
+}
+.bg-link:active {
+    background-color: #0000FF; /* Selected background color */
+    color: white;
+    padding: 5px;
+}
+
+/* Ordered list styling */
+.custom-ordered-list {
+    list-style-type: lower-greek;
+    text-align: left;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Unordered list styling */
+.custom-unordered-list {
+    list-style-type: square;
+    text-align: left;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* List with image marker */
+.image-marker-list {
+    list-style-image: url('marker.png');
+}

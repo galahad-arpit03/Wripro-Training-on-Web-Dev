@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.bordered-text {
+    border: 10px solid;
+    border-image: url('../images/border.png') 30 round; /* Adjust slice value as needed */
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}

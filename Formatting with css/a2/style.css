@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f8ff; /* Light blue background color */
+    background-image: url('../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}

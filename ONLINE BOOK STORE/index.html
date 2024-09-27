@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- First Row: Promotion Banner -->
+    <div class="container-fluid bg-pink text-center py-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-2">
+                <img src="logo-removebg-preview.png" alt="Logo" class="rounded-circle logo">
+            </div>
+            <div class="col-12 col-md-10">
+                <h1 class="text-uppercase text-bold">Your Route to Success</h1>
+                <p class="text-lowercase">upto 40% off on sbi exam books</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row: Search and Other Buttons -->
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for books...">
+                    <button class="btn btn-success" type="button">Search</button>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <button class="btn btn-secondary m-1">Download</button>
+                <button class="btn btn-secondary m-1">Print</button>
+                <button class="btn btn-secondary m-1">Favorite</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Book Listings -->
+    <div class="container book-section">
+        <!-- Upcoming Books -->
+        <h2 class="text-center my-4">Upcoming Books</h2>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book1.jpg" alt="Book 1" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 1</p>
+                        <p class="book-author text-muted">by Author 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book2.jpg" alt="Book 2" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 2</p>
+                        <p class="book-author text-muted">by Author 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book3.jpg" alt="Book 2" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 2</p>
+                        <p class="book-author text-muted">by Author 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book4.jpg" alt="Book 2" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 2</p>
+                        <p class="book-author text-muted">by Author 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book5.jpg" alt="Book 2" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 2</p>
+                        <p class="book-author text-muted">by Author 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book6.jpg" alt="Book 2" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 2</p>
+                        <p class="book-author text-muted">by Author 2</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more books as needed -->
+        </div>
+
+        <!-- Best Selling Books -->
+        <h2 class="text-center my-4">Best Selling Books</h2>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book3.jpg" alt="Book 3" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 3</p>
+                        <p class="book-author text-muted">by Author 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="card book-card">
+                    <img src="book4.jpg" alt="Book 4" class="card-img-top book-cover">
+                    <div class="card-body text-center">
+                        <p class="book-title">Book Title 4</p>
+                        <p class="book-author text-muted">by Author 4</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more books as needed -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

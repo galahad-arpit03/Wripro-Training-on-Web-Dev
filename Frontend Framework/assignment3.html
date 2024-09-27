@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Table</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .low-cal { background-color: lightgreen; }
+        .medium-cal { background-color: lightblue; }
+        .high-cal { background-color: lightorange; }
+        .very-high-cal { background-color: lightcoral; }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Food Calorie Table</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Food</th>
+                    <th>Calories</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="low-cal">
+                    <td>Apple</td>
+                    <td>150</td>
+                </tr>
+                <tr class="medium-cal">
+                    <td>Burger</td>
+                    <td>500</td>
+                </tr>
+                <tr class="high-cal">
+                    <td>Pizza</td>
+                    <td>900</td>
+                </tr>
+                <tr class="very-high-cal">
+                    <td>Cheesecake</td>
+                    <td>1300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

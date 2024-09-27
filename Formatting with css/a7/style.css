@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.styled-text {
+    color: magenta;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 60px;
+    font-size: 18px;
+}

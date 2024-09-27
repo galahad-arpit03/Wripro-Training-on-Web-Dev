@@ -1,0 +1,8 @@
+body {
+    background-image: url('../images/tile.jpg');
+    background-repeat: repeat; /* Repeats both horizontally and vertically */
+    background-size: 200px 200px; /* Ensures each tile is 200x200 px */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}

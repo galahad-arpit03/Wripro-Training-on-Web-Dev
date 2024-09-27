@@ -1,0 +1,9 @@
+body {
+    background-image: url('../images/background5.jpg');
+    background-repeat: repeat-y; /* Repeats vertically only */
+    background-position: left;
+    background-size: auto;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}

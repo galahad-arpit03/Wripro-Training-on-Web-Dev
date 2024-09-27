@@ -1,0 +1,75 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Assignment 1: Div with border, padding, and background color */
+.border-padding-bg {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #dddddd;
+    border-top-left-radius: 2em; /* Top-left border radius */
+}
+
+/* Assignment 2: Div with text shadow */
+.text-shadow {
+    font-size: 24px;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Horizontal and vertical shadow */
+}
+
+/* Assignment 3: White text with black shadow */
+.white-text-black-shadow {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black; /* White text with black shadow */
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Assignment 4: Div with border image */
+.border-image {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 15px solid transparent;
+    border-image: url('imagename.png') 30 30 stretch; /* Example image border */
+    background-color: #f9f9f9;
+}
+
+/* Assignment 5: Div with background image */
+.background-image {
+    width: 180px;
+    height: 150px;
+    border: 1px solid black;
+    background: url('imagename.gif') no-repeat center;
+    background-size: cover;
+}
+
+/* Assignment 6: Rotated Div */
+.rotate-div {
+    width: 200px;
+    height: 100px;
+    background-color: #ffccbc;
+    transform: rotate(-20deg); /* Rotate counter-clockwise by 20 degrees */
+    padding: 10px;
+}
+
+/* Assignment 7: Scaled Div */
+.scaled-div {
+    width: 100px;
+    height: 50px;
+    background-color: #e0f7fa;
+    transform: scale(2, 3); /* Scale: 2x width, 3x height */
+}
+
+/* Assignment 8: Skewed Div */
+.skew-div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: skew(20deg, 10deg); /* Skew 20 degrees along X-axis, 10 degrees along Y-axis */
+}

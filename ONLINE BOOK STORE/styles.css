@@ -1,0 +1,65 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Promotion Banner */
+.bg-pink {
+    background-color: #fce4ec;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+p {
+    color: #ff4081;
+    font-size: 24px;
+}
+
+/* Action Bar */
+.input-group .form-control {
+    height: 45px;
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+/* Book Section */
+.book-section {
+    padding-bottom: 40px;
+}
+
+.card {
+    border: none;
+}
+
+.book-cover {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.book-title {
+    font-size: 16px;
+}
+
+.book-author {
+    font-size: 14px;
+}

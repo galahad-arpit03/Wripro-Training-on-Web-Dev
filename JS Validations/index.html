@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Validations</title>
+</head>
+<body>
+    <h1>Form Validations</h1>
+    
+    <!-- Form for Validation -->
+    <form id="validationForm" onsubmit="return validateForm()">
+        <!-- Member Number -->
+        <label for="memberNumber">Member Number:</label>
+        <input type="text" id="memberNumber" name="memberNumber">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="XXX-XXX-XXXX or XXX.XXX.XXXX or XXX XXX XXXX">
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+    background-image: url('../images/background1.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire background */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}

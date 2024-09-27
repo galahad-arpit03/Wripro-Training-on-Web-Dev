@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Phone Number Validation</h1>
+
+    <form id="assignmentForm2" onsubmit="return validateForm2()">
+        <!-- Phone Number -->
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm2() {
+            const phoneNumber = document.getElementById('phoneNumber').value;
+
+            // Regex for valid phone number formats
+            const phoneRegex = /^(\d{3}[-. ]\d{3}[-. ]\d{4})$/;
+
+            if (phoneNumber === '') {
+                alert('Phone number is required.');
+                document.getElementById('phoneNumber').focus();
+                return false;
+            } else if (!phoneRegex.test(phoneNumber)) {
+                alert('Phone number must be in the format XXX-XXX-XXXX, XXX.XXX.XXXX, or XXX XXX XXXX.');
+                document.getElementById('phoneNumber').focus();
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

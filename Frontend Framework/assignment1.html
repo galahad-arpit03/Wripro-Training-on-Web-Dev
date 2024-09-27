@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resize</title>
+    <style>
+        /* Default image */
+        body {
+            background-image: url('images/img1.jpg');
+            background-size: cover;
+        }
+
+        /* On medium-sized screens */
+        @media (max-width: 1024px) {
+            body {
+                background-image: url('images/img2.jpg');
+            }
+        }
+
+        /* On smaller screens */
+        @media (max-width: 768px) {
+            body {
+                background-image: url('images/img3.jpg');
+            }
+        }
+
+        /* On extra small screens */
+        @media (max-width: 480px) {
+            body {
+                background-image: url('images/img4.jpg');
+            }
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

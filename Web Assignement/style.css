@@ -1,0 +1,18 @@
+/* Styles for both Task 1 and Task 2 */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    background-color: #00BFFF;
+}
+
+#center-div {
+    text-align: center;
+    font-size: 27px;
+    font-family: Arial, sans-serif;
+}
+
+.center-div {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+}

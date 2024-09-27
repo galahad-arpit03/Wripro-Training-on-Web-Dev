@@ -1,0 +1,9 @@
+body {
+    background-image: url('../images/background4.jpg');
+    background-repeat: repeat-x; /* Repeats horizontally only */
+    background-position: top;
+    background-size: auto;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
